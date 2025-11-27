@@ -178,7 +178,7 @@
                   "InitialSize_Max" : [50.000000, 50.000000, 1.000000],
                   "InitialSize_Min" : [50.000000, 50.000000, 1.000000],
                   "InitialSize_bUseRange" : false,
-                  "Material" : "texture",
+                  "Material" : "MatID_1",
                   "MaxParticles" : 1000,
                   "ScreenAlignment" : 0,
                   "SortMode" : 1,

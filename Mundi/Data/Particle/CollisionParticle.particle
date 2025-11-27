@@ -42,6 +42,7 @@
                     "bEnabled" : true
                   }, {
                     "CollisionResponse" : 0,
+                    "EventName" : "",
                     "Friction" : 0.200000,
                     "RadiusScale" : 0.200000,
                     "Restitution" : 0.300000,
@@ -49,11 +50,11 @@
                     "bEnabled" : true,
                     "bWriteEvent" : false
                   }, {
-                    "InitialRotation_Max" : 0.000000,
-                    "InitialRotation_Min" : 0.000000,
+                    "InitialRotation_Max" : [0.000000, 0.000000, 0.000000],
+                    "InitialRotation_Min" : [0.000000, 0.000000, 0.000000],
                     "InitialRotation_bUseRange" : false,
-                    "StartRotationRate_Max" : 0.000000,
-                    "StartRotationRate_Min" : 5.000000,
+                    "StartRotationRate_Max" : [0.000000, 0.000000, 0.000000],
+                    "StartRotationRate_Min" : [0.000000, 0.000000, 0.000000],
                     "StartRotationRate_bUseRange" : false,
                     "Type" : "RotationRate",
                     "bEnabled" : true
@@ -95,13 +96,13 @@
                   "InitialColor_Max" : [1.000000, 1.000000, 1.000000, 1.000000],
                   "InitialColor_Min" : [1.000000, 1.000000, 1.000000, 1.000000],
                   "InitialColor_bUseRange" : false,
-                  "InitialRotation_Max" : 0.000000,
-                  "InitialRotation_Min" : 0.000000,
+                  "InitialRotation_Max" : [0.000000, 0.000000, 0.000000],
+                  "InitialRotation_Min" : [0.000000, 0.000000, 0.000000],
                   "InitialRotation_bUseRange" : false,
                   "InitialSize_Max" : [50.000000, 50.000000, 1.000000],
                   "InitialSize_Min" : [50.000000, 50.000000, 1.000000],
                   "InitialSize_bUseRange" : false,
-                  "Material" : "material",
+                  "Material" : "MatID_1",
                   "MaxParticles" : 10000,
                   "ScreenAlignment" : 1,
                   "SortMode" : 1,
