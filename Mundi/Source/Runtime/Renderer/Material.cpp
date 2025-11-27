@@ -33,7 +33,7 @@ bool UMaterial::Load(const FString& InFilePath, ID3D11Device* InDevice)
 	}
 	else
 	{
-		throw std::runtime_error(".dds나 .hlsl만 입력해주세요. 현재 입력 파일명 : " + InFilePath);
+		//throw std::runtime_error(".dds나 .hlsl만 입력해주세요. 현재 입력 파일명 : " + InFilePath);
 	}
 	return true;
 }
